@@ -1,0 +1,157 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    src: url("/Fuente/Capsmall_clean.ttf");
+    font-family: "fuenteTITULO";
+}
+
+.cabeza {
+    display: flex;
+    justify-content: center;
+    background-color: #F29F05;
+}
+
+.blog {
+    font-family: "fuenteTitulo";
+    font-size: 35px;
+    color: white;
+}
+
+.cuerpo {
+    display: flex;
+    
+}
+.izquierda {
+    background-color: #F2E744;
+    width: 80%;
+    padding: 0.5%;
+    background-image: url(/Imagen/00033.png);
+}
+
+.Dosarticulos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    
+}
+.articulo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.Hamburguesas {
+    width: 95%;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 80%);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.h2 {
+    font-family: fuentetitulo;
+    display: flex;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.parrafo {
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 80%;
+}
+
+.burgertops {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 80%);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.derecha {
+    background-color: #FFF6B8;
+    width: 20%;
+}
+
+.fotolat {
+    width: 100%;
+}
+
+.antojo {
+    text-align: center;
+    font-family: fuentetitulo;
+    font-size: 15px;
+    color: black;
+}
+
+.Noticiasimput {
+    font-family: fuentetitulo;
+    text-align: center;
+    font-size: 110%;
+    padding: 80px 0px 0px 0px;
+    color:  #F29F05;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imput {
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    margin: 8px 0px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 30%);
+    border:none;
+    background: none;
+}
+
+.boton {
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+    margin: 5px;
+    border: none;
+    background-color: #F29F05;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 30%);
+}
+
+.footer {
+    background-color: #F29F05;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logosSoc {
+    height: 25px;
+}
+
+@media (max-width: 480px) {
+    .derecha {
+        display: none;
+    }
+
+    .izquierda {
+        width: 100%;
+    }
+
+}
